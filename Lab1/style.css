@@ -1,7 +1,8 @@
 body {
     background-color: #000000;  /* خلفية سوداء */
     color: white;               /* لون النص الأبيض بشكل افتراضي*/
-    margin-bottom: 20px;     
+    margin-bottom: 20px;    
+     font-family: Cambria, serif;
 }
 
 h1 {
