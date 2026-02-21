@@ -1,14 +1,14 @@
 body {
-    font-family: Cambria, serif;
     background-color: #000000;  /* خلفية سوداء */
     color: white;               /* لون النص الأبيض بشكل افتراضي */
     margin: 20px;
+}
 
 h1 {
     text-align: center;
 }
 h2 {
-    color: red;
+    color: lightpink ;
     text-align: center;
 }
 .label {
@@ -17,6 +17,7 @@ h2 {
     color: pink;            /* اللون الوردي */
     font-family: Cambria, serif;
     margin-bottom: 5px;
+}
 .value {
     font-size: 14px;        /* حجم 14px */
     font-weight: normal;    /* وزن طبيعي */
