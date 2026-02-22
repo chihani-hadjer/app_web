@@ -1,26 +1,41 @@
 body {
-    background-color: #000000;  /* خلفية سوداء */
-    color: white;               /* لون النص الأبيض بشكل افتراضي*/
-    margin-bottom: 20px;    
-     font-family: Cambria, serif;
+	font-family: Cambria, serif;
+    background-color: #000000;  /* black background */
+    color: white;  	/* white color بشكل افتراضي*/
+    background-image: url('Network.jpg');  /* اسم الصورة */
+    background-size: cover;                    /* تغطي الصفحة بالكامل */
+    background-repeat: no-repeat;             /* لا تتكرر */
+    background-position: center;              /* توضع في المنتصف */
+
 }
 
 h1 {
     text-align: center;
+	color:lightgreen;       /* lightgreen color*/
 }
 h2 {
-    color: plum;
+    color: plum;            /* plum color*/
     text-align: center;
 }
 .label {
-    font-size: 16px;        /* حجم 16px */
+    font-size: 16px;        /* size of 16px */
     font-weight: bold;      /* Bold */
-    color: pink;            /* اللون الوردي */
+    color: pink;            /* pink color*/
     font-family: Cambria, serif;
-    margin-bottom: 5px;     
+    
 }
 .value {
-    font-size: 14px;        /* حجم 14px */
-    font-weight: normal;    /* وزن طبيعي */
-    color: beige;           /* لون أسود */
+    font-size: 14px;        /* size of 14px */
+    font-weight: normal;    /* normal weight */
+    color:  lightblue;      /* lightblue color*/
+}
+.profile-img {
+    width: 250px;            /* حجم الصورة */
+    height: 250px;           /* نفس الحجم للعرض والارتفاع */
+    border-radius: 50%;      /* يجعل الصورة دائرية */
+    object-fit: cover;       /* يملأ الإطار بشكل جميل */
+    display: block;          /* يجعلها عنصر كتلة */
+    margin: 10px auto;       /* مركز الصورة أفقياً */
+    border: 3px solid lightpink; /* إطار وردي  */
+}
 }
