@@ -1,41 +1,41 @@
 body {
-    font-family: Cambria, serif;
-    background-color: #000000;
-    color: white;
+	font-family: Cambria, serif;
+    background-color: #000000;  /* black background */
+    color: white;  	/* white color بشكل افتراضي*/
+    background-image: url('Network.jpg');  /* اسم الصورة */
+    background-size: cover;                    /* تغطي الصفحة بالكامل */
+    background-repeat: no-repeat;             /* لا تتكرر */
+    background-position: center;              /* توضع في المنتصف */
 
-    background-image: url('Network.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 h1 {
     text-align: center;
-    color: lightgreen;
+	color:lightgreen;       /* lightgreen color*/
 }
-
 h2 {
-    color: plum;
+    color: plum;            /* plum color*/
     text-align: center;
 }
-
 .label {
-    font-size: 16px;
-    font-weight: bold;
-    color: pink;
+    font-size: 16px;        /* size of 16px */
+    font-weight: bold;      /* Bold */
+    color: pink;            /* pink color*/
+    font-family: Cambria, serif;
+    
 }
-
 .value {
-    font-size: 14px;
-    color: lightblue;
+    font-size: 14px;        /* size of 14px */
+    font-weight: normal;    /* normal weight */
+    color:  lightblue;      /* lightblue color*/
 }
-
 .profile-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    margin: 10px auto;
-    border: 3px solid lightpink;
+    width: 250px;            /* حجم الصورة */
+    height: 250px;           /* نفس الحجم للعرض والارتفاع */
+    border-radius: 50%;      /* يجعل الصورة دائرية */
+    object-fit: cover;       /* يملأ الإطار بشكل جميل */
+    display: block;          /* يجعلها عنصر كتلة */
+    margin: 10px auto;       /* مركز الصورة أفقياً */
+    border: 3px solid lightpink; /* إطار وردي ناعم */
+}
 }
